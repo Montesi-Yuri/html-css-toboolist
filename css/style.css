@@ -1,4 +1,7 @@
+ 
+ 
  /* General */
+
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +10,27 @@
     background-color: #F6F8F9;
 }
 
-.container{
+section{
     width: 60%;
     margin: auto;
+    padding-left: 40px;
     background-color: white;
 }
+
+.title-padding{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.row-padding{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+h4{
+    display: inline-block;
+    font-weight: 500;
+}
+
 
 /* Header */
 
@@ -36,6 +55,7 @@ header{
 .white-background{
     background-color: white
 }
+
 
 /* Main - Buttons section */
 
@@ -65,16 +85,6 @@ header{
     color: #CED3D7;
 }
 
-/* End of buttons section */
-
-
-/* New task section */
-section{
-    width: 60%;
-    margin: auto;
-    padding-left: 40px;
-    background-color: white;
-}
 
 /* Colored Tags */
 
@@ -128,6 +138,17 @@ section{
     vertical-align: middle;
 }
 
+.sales-tag{
+    border: solid 1px #B0C926;
+    background-color: #B0C926;
+    color: white;
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 6px 12px;
+    vertical-align: middle;
+}
+
+
 /* Green check and Red cross */
 
 .green-check{
@@ -152,19 +173,4 @@ section{
     height: 20px;
     text-align: center;
     line-height: 20px;
-}
-
-/* Miscellaneous */
-
-.title-padding{
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-.row-padding{
-    padding-bottom: 10px;
-    padding-top: 15px;
-}
-
-h4{
-    display: inline-block;
 }
