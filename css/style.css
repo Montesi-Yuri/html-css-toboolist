@@ -4,18 +4,97 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: #F6F8F9;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: white;
 }
 
 /* Header */
 
 .logo{
     vertical-align: middle;
-    margin-top: 16px;
-    margin-left: 16px;
+    background-color: white;
 }
 
 .main-title{
     display: inline-block;
     vertical-align: middle;
-    margin-top: 16px;
+    font-size: 40px;
+    background-color: white;
+}
+
+header{
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 16px;
+}
+
+.white-background{
+    background-color: white
+}
+
+/* Main - Buttons section */
+
+.button-section{
+    border: 2px solid #F6F8F9;
+    border-radius: 0px 10px;
+}
+
+.add-button{
+    border: solid 2px;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 8px;
+    margin-top: 50px;
+    line-height: 70px;
+    margin-right: 5px;
+}
+
+.add-task-button{
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+    color: white;
+}
+
+.add-section-button{
+    border-color: #CED3D7;
+    color: #CED3D7;
+}
+
+/* End of buttons section */
+
+
+/* New task section */
+main>section{
+    width: 60%;
+    margin: auto;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.editorial-tag{
+    border: solid 1px #45ABEA;
+    background-color: #45ABEA;
+    color: white;
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 6px 12px;
+    vertical-align: middle;
+}
+
+.green-check{
+    border: solid 1px green;
+    border-radius: 50%;
+    color: green;
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
 }
