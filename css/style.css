@@ -41,7 +41,7 @@ header{
 
 .button-section{
     border: 2px solid #F6F8F9;
-    border-radius: 0px 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .add-button{
@@ -69,13 +69,14 @@ header{
 
 
 /* New task section */
-main>section{
+section{
     width: 60%;
     margin: auto;
     padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: white;
 }
+
+/* Colored Tags */
 
 .editorial-tag{
     border: solid 1px #45ABEA;
@@ -87,6 +88,48 @@ main>section{
     vertical-align: middle;
 }
 
+.Q1-goals-tag{
+    border: solid 1px #9C72E4;
+    background-color: #9C72E4;
+    color: white;
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 6px 12px;
+    vertical-align: middle;
+}
+
+.recruiting-tag{
+    border: solid 1px #64C0A9;
+    background-color: #64C0A9;
+    color: white;
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 6px 12px;
+    vertical-align: middle;
+}
+
+.mobile-tag{
+    border: solid 1px #F29E33;
+    background-color: #F29E33;
+    color: white;
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 6px 12px;
+    vertical-align: middle;
+}
+
+.website-tag{
+    border: solid 1px #D863A1;
+    background-color: #D863A1;
+    color: white;
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 6px 12px;
+    vertical-align: middle;
+}
+
+/* Green check and Red cross */
+
 .green-check{
     border: solid 1px green;
     border-radius: 50%;
@@ -97,4 +140,31 @@ main>section{
     height: 20px;
     text-align: center;
     line-height: 20px;
+}
+
+.red-cross{
+    border: solid 1px red;
+    border-radius: 50%;
+    color: red;
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* Miscellaneous */
+
+.title-padding{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.row-padding{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+h4{
+    display: inline-block;
 }
