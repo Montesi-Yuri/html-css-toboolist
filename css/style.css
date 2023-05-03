@@ -3,5 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* Header */
+
+.logo{
+    vertical-align: middle;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.main-title{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 16px;
+}
